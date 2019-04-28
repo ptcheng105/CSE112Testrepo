@@ -4,15 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest && standard"
+    "test": "jest && standard && npm run docs",
+    "docs": "./node_modules/.bin/esdoc"
   },
-  "standard":{
-    "ignore":[
-      "/standardignore/"]
+  "standard": {
+    "ignore": [
+      "/src/standardignore/",
+      "/docs/"
+    ]
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0",
     "jest": "^24.7.1"
-  }
+  },
+  "dependencies": {}
 }
