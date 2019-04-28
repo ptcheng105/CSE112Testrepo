@@ -1,2 +1,1 @@
-console.log('error
-	awdasdawd
+console.log('error')

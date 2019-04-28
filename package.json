@@ -4,8 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "standard && cho \"Error: no test specified\" "
+    "test": "jest && standard"
+  },
+  "standard":{
+    "ignore":[
+      "/standardignore/"]
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
 }
